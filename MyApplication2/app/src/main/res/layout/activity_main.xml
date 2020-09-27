@@ -20,4 +20,22 @@
         android:layout_margin="32dp"
         android:src="@drawable/ic_add" />
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/button_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="32dp"
+        android:src="@drawable/ic_home" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/button_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_margin="32dp"
+        android:src="@drawable/ic_call" />
+
+
+
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
